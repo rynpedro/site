@@ -1,0 +1,22 @@
+/* ... (Seu CSS atual) ... */
+
+/* Estilos para a lista de usuários */
+#usuarios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espaço entre os cartões */
+}
+
+#usuarios p {
+    background-color: #444; /* Cor de fundo dos cartões */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+    flex: 1; /* Permite que os cartões cresçam para preencher o espaço */
+    min-width: 200px; /* Largura mínima dos cartões */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s; /* Animação suave */
+}
+
+#usuarios p:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
